@@ -1,0 +1,95 @@
+ file_managed         32         32          0          0.065s
+                    file_usage         32         32          0          0.031s
+                        filter         21         21          0          0.020s
+                 filter_format          4          4          0          0.015s
+                         flood          0          0          0          0.010s
+            heartbeat_activity          0          0          0          0.011s
+            heartbeat_comments          0          0          0          0.026s
+            heartbeat_messages          0          0          0          0.011s
+             heartbeat_plugins          0          0          0          0.011s
+             heartbeat_streams          0          0          0          0.014s
+      heartbeat_user_templates          0          0          0          0.011s
+                       history         94         94          0          0.014s
+                 image_effects          0          0          0          0.009s
+                  image_styles          0          0          0          0.010s
+                  job_schedule          0          0          0          0.013s
+         job_scheduler_trigger          0          0          0          0.020s
+            ldap_authorization          0          0          0          0.010s
+                    ldap_query          0          0          0          0.011s
+                  ldap_servers          0          0          0          0.016s
+           mailhandler_mailbox          1          1          0          0.018s
+                   menu_custom          7          7          0          0.028s
+                    menu_links        757        757          0          0.069s
+                   menu_router        992        992          0          0.110s
+                multiple_email          9          9          0          0.029s
+               netspective_ems          1          1          0          0.017s
+                          node       7216       7216          0          0.309s
+                   node_access          1          1          0          0.142s
+       node_comment_statistics       7216       7216          0          0.227s
+                 node_revision      11666      11666          0          0.722s
+                     node_type        106        106          0          0.141s
+                 notifications        167        167          0          0.017s
+                        notify          0          0          0          0.010s
+      notify_unpublished_queue          0          0          0          0.010s
+         oauth_common_consumer          0          0          0          0.013s
+          oauth_common_context          0          0          0          0.014s
+            oauth_common_nonce          0          0          0          0.014s
+oauth_common_provider_consumer          0          0          0          0.010s
+   oauth_common_provider_token          0          0          0          0.012s
+            oauth_common_token          0          0          0          0.012s
+         page_manager_handlers          0          0          0          0.016s
+            page_manager_pages          0          0          0          0.011s
+          page_manager_weights          0          0          0          0.037s
+                password_reset          1          1          0          0.025s
+          password_reset_users          2          2          0          0.016s
+                         queue         12         12          0          0.016s
+                     quicktabs         31         31          0          0.017s
+                   rdf_mapping          2          2          0          0.019s
+                      registry       1150       1150          0          0.047s
+                 registry_file        713        713          0          0.048s
+                      relation          0          0          0          0.011s
+              relation_bundles          2          2          0          0.015s
+             relation_revision          0          0          0          0.009s
+                 relation_type          1          1          0          0.014s
+                          role          9          9          0          0.013s
+               role_permission       2354       2354          0          0.054s
+                  rules_config          5          5          0          0.023s
+            rules_dependencies         11         11          0          0.029s
+                    rules_tags          0          0          0          0.015s
+                 rules_trigger          7          7          0          0.019s
+                search_dataset       7216       7216          0          0.379s
+                  search_index      64660      64660          0          1.163s
+             search_node_links       9729       9729          0          0.270s
+                  search_total       7332       7332          0          0.235s
+                     semaphore          0          0          0          0.029s
+                     sequences          1          1          0          0.081s
+             services_endpoint          1          1          0          0.026s
+                      sessions          0          0          0          0.021s
+                  shortcut_set          1          1          0          0.032s
+            shortcut_set_users          0          0          0          0.011s
+                      stylizer          0          0          0          0.026s
+                        system        296        296          0          0.079s
+                taxonomy_index       4585       4585          0          0.112s
+            taxonomy_term_data        132        132          0          0.099s
+       taxonomy_term_hierarchy        132        132          0          0.090s
+           taxonomy_vocabulary         32         32          0          0.025s
+              tokenauth_tokens         24         24          0          0.031s
+           trigger_assignments          1          1          0          0.021s
+                     url_alias       7386       7386          0          0.255s
+                         users         25         25          0          0.059s
+                   users_roles         30         30          0          0.070s
+                      variable       1535       1535          0          0.091s
+                 views_display        219        219          0          0.663s
+                    views_view         64         64          0          0.019s
+                      watchdog       1040       1040          0          0.130s
+                       wysiwyg          0          0          0          0.024s
+                  wysiwyg_user          0          0          0          0.017s
+        Index Build Completion          0          0          0          0.000s
+------------------------------  ---------  ---------  ---------  --------------
+                Create Indexes       8615       8615          0        5m9.703s
+               Reset Sequences          0         53          0          0.489s
+                  Primary Keys       1177       1177          0          3.552s
+                  Foreign Keys          0          0          0          0.000s
+                      Comments       9355          0       9355          6.328s
+------------------------------  ---------  ---------  ---------  --------------
+             Total import time     245869     245869          0        4m7.093s
